@@ -34,7 +34,7 @@ if "history" not in st.session_state:
 
 user_input = st.text_input(
     "Ask something:",
-    placeholder="e.g. weather in Karachi aur 5*9 bhi batao aur date bhi"
+    placeholder="e.g. What's the weather in Karachi, calculate 5×9, and tell me today's date"
 )
 
 # ─────────────────────────────────────────────
